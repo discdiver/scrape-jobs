@@ -1,0 +1,11 @@
+Full Plan
+Scrape 25 companies' job listing websites.
+Write to SQL table in an S3 bucket. Different table for each week, probably.
+Run a weekly query automatically to send a .csv or .html file via email.
+
+First Pass
+Scrape 1 company's job listings.
+Write to a pandas data frame.
+Write to a csv.
+
+Use beautifulsoup4, requests, pandas.
