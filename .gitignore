@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
-# Secrets and other .json files
+# Additional files
 *.json
+*.csv
